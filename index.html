@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="form">
+        <header>Cadastro</header>
+        <form id="formCadastro" action="">
+            <div class="campo nome">
+                <div class="input-area">
+                    <input type="text" name="nome" placeholder="Nome Completo" required>
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+                <div class="campo email">
+                <div class="input-area">
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+                <div class="campo telefone">
+                <div class="input-area">
+                    <input type="text" name="telef" placeholder="Telefone" required>
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+                <div class="campo cpf">
+                <div class="input-area">
+                    <input type="text" name="cpf" placeholder="CPF" required>
+                    <i class="fas fa-user"></i>
+                    
+                </div>
+            </div>
+                <div class="campo endereco">
+                <div class="input-area">
+                    <input type="text" name="endereco" placeholder="Endereço" required>
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+                <div class="campo cep">
+                <div class="input-area">
+                    <input type="text" name="cepp"  placeholder="CEP" required>
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <div class="radio_btn">
+                <input type="radio" name="r1" id="homem" checked>
+                <label for="homem">Homem</label>
+                <input type="radio" name="r1" id="mulher">
+                <label for="mulher">Mulher</label>
+                <input type="radio" name="r1" id="outro">
+                <label for="outro">Outro</label>
+            </div>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
